@@ -7,4 +7,8 @@ class TempEngine {
         return run(d);
     }
 }
-module.exports = TempEngine;
+ // module.exports=(h, d, r)=>{
+ //    return Function(r || d.name || 'data', 'return `' + h + '`')(d);
+ // } 
+
+ module.exports = TempEngine;
